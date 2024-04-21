@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STOPWATCH</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="stopwatch">
+        <h1 id="displayTime">00.00.00</h1>
+        <div class="buttons">
+            <img src="stop.png" onclick="watchStop()">  <!--onclick event button for stoping the watch --> 
+            <img src="start.png" onclick="watchStart()"> <!-- onclick event button for starting the watch which will be used in js to connect -->
+            <img src="reset.png" onclick="watchReset()"> <!--onclick event button for reseting the watch//-->
+        </div>
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>

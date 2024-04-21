@@ -1,0 +1,42 @@
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    height: 100vh; /* Make the body fill the entire viewport */
+}
+
+.stopwatch {
+    background-color: greenyellow;
+    max-width: 600px;
+    text-align: center;
+    width: 90%;
+    padding: 60px 0;
+    border-radius: 30px;
+    background-image: url('new.jpg');/* added background img*/
+    background-size: cover;
+    background-position: center;
+    padding: 40px 0;
+    margin: 200px auto 0;
+    
+}
+
+
+.buttons {
+    display: flex; /* Set the container to flex */
+    justify-content: center; /* Center items horizontally */
+    margin-top: 20px; /* Add some space between the stopwatch and buttons */
+    
+}
+
+
+.buttons img {
+    width: 100%; /* Occupy 100% of the container's width */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 80px; /* Set a maximum width */
+    max-height: 80px; /* Set a maximum height */
+    margin: 0 5px; /* Add some spacing between the images */
+}
+.buttons img:hover {
+    transform: scale(1.18); /* Scale up  on hover */
+}
